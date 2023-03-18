@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Bebas+Neue&family=Climate+Crisis&family=Inconsolata:wght@300&family=Josefin+Sans&family=Oswald&family=Rubik+Iso&family=Sono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        
+        <div class="h">
+            <img src="logo.png" alt="">
+            <h1>SunWeather</h1>
+        </div>
+        <div class="searchbar">
+            <input id="city" class="bar" type="text" placeholder="Search for a city">
+            <button id="btn" class="search"><img src="search_logo.png" alt=""></button>
+        </div>
+    </div>
+    <div class="mid">
+        
+        <div class="con">
+            <div class="t">
+                <h2>Temperature</h2>
+                <div class="tv">
+                    <img src="temp_logo.png" alt="">
+                    <h2 id="temp">--</h2>
+                </div>
+            </div>
+            <div class="hu">
+                <h2>Humidity</h2>
+                <div class="hv">
+                    <img src="humidity_logo.png" alt="">
+                    <h2 id="humidity">--</h2>
+                </div>
+            </div>
+            <div class="w">
+                <h2>Wind</h2>
+                <div class="wv">
+                    <img src="wind_logo.png" alt="">
+                    <h2 id="wind">--</h2>
+                </div>
+            </div>
+            <div class="c">
+                <h2 id="cityname">CITY</h2>
+            </div>
+        </div>
+        <div class="quote">
+            <p id="text">Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather.</p>
+        </div>
+    </div>
+    <p class="foot">Made with ❤️ by <span>Sun</span></p>
+</body>
+<script src="weather.js"></script>
+</html>
