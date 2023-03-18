@@ -75,6 +75,9 @@ body{
     height: 450px;
     background-image: url("2.png");
     background-size:cover ;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .t>.tv>img{
     width: 50px;
@@ -109,7 +112,11 @@ body{
 #temp{
     margin-left: 5px;
 }
-
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .c{
     background-color: rgb(255, 196, 182);
     width: 100%;
@@ -122,8 +129,8 @@ body{
     margin-left: 30px;
 }
 .mid{
-    margin: 50px;
-    margin-left: 0px;
+    /* margin: 50px; */
+    /* margin-left: 0px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
