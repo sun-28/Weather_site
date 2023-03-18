@@ -21,7 +21,6 @@ body{
     padding: 0px;
     margin: 0px;
     padding-top: 10px;
-    /* margin-left: 100px; */
     font-family: 'Sono', sans-serif;
     font-size: large;
     color: rgb(255, 196, 182);
@@ -75,7 +74,6 @@ body{
     height: 450px;
     background-image: url("2.png");
     background-size:cover ;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -129,8 +127,6 @@ body{
     margin-left: 30px;
 }
 .mid{
-    /* margin: 50px; */
-    /* margin-left: 0px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
